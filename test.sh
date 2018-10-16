@@ -67,7 +67,7 @@ sed -i "s/uxxxn/$user_name/g" /etc/httpd/sites-enabled/$domain_name.conf /etc/ph
 
  echo -e "\n\nCongratulations!!! Website added. Info given below:"
  echo -e "-----------\nDomain name: $domain_name\nUsername: $user_name\nPassword: $pass_word"
- echo -e "Home direcory: /home/$user_name"
+ #echo -e "Home direcory: /home/$user_name"
 
 else
 
